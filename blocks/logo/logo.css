@@ -1,0 +1,5 @@
+.logo {
+  width: 228px;
+  height: 32px;
+  background: url("../../images/logo_place_header.svg") no-repeat center center /cover;
+}
