@@ -1,5 +1,4 @@
 # Project "How to learn" on Yandex Practicum course
-Alt-H1
 ------
 ## Description:
 * It's a landing page on HTML/CSS reflecting the best ways of learning new information
