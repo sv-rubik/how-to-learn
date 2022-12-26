@@ -1,0 +1,10 @@
+.comments__container {
+  width: 95%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #fff;
+  list-style-type: none;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}

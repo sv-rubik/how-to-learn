@@ -7,6 +7,8 @@
   font-weight: normal;
   text-decoration: none;
   color: #2f80ed;
+  -webkit-transition: opacity .5s ease;
+  -o-transition: opacity .5s ease;
   transition: opacity .5s ease;
 }
 

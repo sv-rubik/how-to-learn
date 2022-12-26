@@ -1,6 +1,7 @@
 .git
 .idea
-BEM_tree.txt
-texts.md
-texts-brief1.md
-texts-brief2.md
+other
+other/BEM_tree.txt
+other/texts.md
+other/texts-brief1.md
+other/texts-brief2.md

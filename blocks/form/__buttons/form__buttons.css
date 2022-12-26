@@ -1,0 +1,31 @@
+.form__button {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 42px;
+  border-radius: 5px;
+  margin-right: 30px;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow:inset 2px 2px 2px 0 rgba(255,255,255,.5),
+  7px 7px 20px 0 rgba(0,0,0,.1),
+  4px 4px 5px 0 rgba(0,0,0,.1);
+  outline: none;
+  border: none;
+  background-color: #98c1ec;
+  background-image: linear-gradient(315deg, #98c1ec 0%, #2f80ed 75%);
+  z-index: 1;
+}
+
+.form__button[type="reset"] {
+  background-color: #ea5f5f;
+  background-image: linear-gradient(315deg, #ea5f5f 0%, #ff8006 75%);
+}
+
+.form__button:active {
+  top: 2px;
+}

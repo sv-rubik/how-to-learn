@@ -2,8 +2,13 @@
   min-height: 350px;
   color: #fff;
   background-color: #1f1f1f;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+    -ms-flex-pack: center;
+      justify-content: center;
   padding: 60px 0 40px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }

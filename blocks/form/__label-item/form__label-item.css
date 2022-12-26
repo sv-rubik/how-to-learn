@@ -1,0 +1,7 @@
+.form__label-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin: 0 0 50px 0;
+}
+

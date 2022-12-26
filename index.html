@@ -248,6 +248,41 @@
           </li>
         </ul>
       </section>
+      <!--  SECTION COMMENTS -->
+      <section class="comments" id="comments-section">
+        <ul class="comments__container">
+          <!--  li added from script.js -->
+        </ul>
+        <a class="clear-storage clear-storage_display-none" href="#comments-section">Очистить комментарии</a>
+      </section>
+      <!--  SECTION FORM -->
+      <section class="form">
+        <form class="form__admin">
+          <h2 class="form__heading">Добавить свой лайфхак по обучению</h2>
+          <!--  FIELDSET INPUT -->
+          <fieldset class="form__input-container">
+            <div class="form__label-item">
+              <label class="form__label" for="fio">Ваше имя</label>
+              <input class="form__item form__item_el_fio" id="fio" type="text" name="fio"
+                     placeholder="Представьтесь, пожалуйста" required>
+
+              <label class="form__label" for="email">Электронная почта</label>
+              <input class="form__item form__item_el_email" id="email" type="email" name="email"
+                     placeholder="hello@example.com">
+            </div>
+            <div class="form__label-item form__label-item_column">
+              <label class="form__label" for="main-text">Расскажите, как учитесь Вы</label>
+              <textarea class="form__item form__item_el_main-text" id="main-text" name="main-text"
+                        placeholder="...здесь будет Ваш текст" required></textarea>
+            </div>
+          </fieldset>
+          <!--  FIELDSET BUTTONS -->
+          <fieldset class="form__handlers">
+            <input class="form__button" type="submit">
+            <input class="form__button" type="reset">
+          </fieldset>
+        </form>
+      </section>
     </main>
     <!--  FOOTER  -->
     <footer class="footer">
@@ -255,7 +290,7 @@
         <!--  1st FOOTER COLUMN  -->
         <div class="footer__column footer__column_content_copyright">
           <div class="logo logo_place_footer"></div>
-          <p class="footer__author">&copy; Светлана Рубинштейн 2023</p>
+          <p class="footer__author">&copy; Светлана Рубинштейн 2022</p>
         </div>
         <!--  2nd FOOTER COLUMN  -->
         <nav class="footer__column footer__column_content_info">
@@ -287,5 +322,7 @@
       </div>
     </footer>
   </div>
+<script src="scripts/script.js"></script>
 </body>
 </html>
+

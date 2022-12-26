@@ -1,5 +1,5 @@
-.footer__columns {
+.form__label-item_column {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  width: 90%;
 }

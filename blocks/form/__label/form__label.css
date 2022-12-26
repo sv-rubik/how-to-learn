@@ -1,0 +1,6 @@
+.form__label {
+  margin-right: 50px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+}

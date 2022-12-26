@@ -1,0 +1,17 @@
+.clear-storage {
+  padding: 20px 0 0 80px;
+  color: #2f80ed;
+  text-decoration: none;
+  -webkit-transition: opacity .5s ease;
+  -o-transition: opacity .5s ease;
+  transition: opacity .5s ease;
+  display: none;
+}
+
+.clear-storage:hover {
+  opacity: .7;
+}
+
+.clear-storage_display-block {
+  display: block;
+}

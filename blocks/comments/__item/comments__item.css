@@ -1,0 +1,15 @@
+.comments__item {
+  margin: 10px 20px;
+}
+
+.comments__item:nth-child(n + 4) {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.comments__item:nth-child(n + 5) {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+}

@@ -1,3 +1,4 @@
+/*  normalize.css  */
 @import url(../vendor/normalize.css);
 
 /*  page  */
@@ -93,12 +94,55 @@
 @import url(../blocks/resources/__logo/resources__logo.css);
 @import url(../blocks/resources/__link/resources__link.css);
 
+/*  comments  */
+@import url(../blocks/comments/comments.css);
+@import url(../blocks/comments/__comment/comments__comment.css);
+@import url(../blocks/comments/__container/comments__container.css);
+@import url(../blocks/comments/__name/comments__name.css);
+@import url(../blocks/comments/__date/comments__date.css);
+@import url(../blocks/comments/__email/comments__email.css);
+@import url(../blocks/comments/__item/comments__item.css);
+@import url(../blocks/comments/__reply-button/comments__reply-button.css);
+
+/*  clear storage  */
+@import url(../blocks/clear-storage/clear-storage.css);
+
+/*  form  */
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__heading/form__heading.css);
+@import url(../blocks/form/__input-container/form__input-container.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__label-item/form__label-item.css);
+@import url(../blocks/form/__label-item/_column/form__label-item_column.css);
+@import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__handlers/form__handlers.css);
+@import url(../blocks/form/__buttons/form__buttons.css);
+
 /*  footer  */
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
+
+/*  fonts  */
+@font-face {
+  src: url(../vendor/fonts/Roboto/Roboto-Light.ttf);
+  font-family: 'Roboto';
+  font-weight: normal;
+}
+@font-face {
+  src: url(../vendor/fonts/Roboto/Roboto-Italic.ttf);
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  src: url(../vendor/fonts/Roboto/Roboto-Medium.ttf);
+  font-family: 'Roboto';
+  font-weight: 600;
+}
